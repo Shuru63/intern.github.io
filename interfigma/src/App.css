@@ -1,0 +1,344 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.App {
+  background: linear-gradient(to right, rgb(207, 246, 232), white);
+}
+
+/* for header css */
+.header {
+  padding: 1.5rem;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 2.5em;
+  color: rgb(17, 186, 82)
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.list li {
+  padding: 1rem;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #5b5959;
+}
+
+.active {
+  color: black;
+}
+
+.side-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.login {
+  padding: 1rem;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.signin {
+  padding: 0.5rem 1rem;
+  font-size: 1.2em;
+  font-weight: 500;
+  background: rgb(149, 224, 149);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.signin:hover {
+  background: rgb(224, 173, 149);
+}
+
+/* end header css */
+/* content css start */
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-side {
+  flex: 0.5;
+    padding: 0.5rem;
+}
+
+.left-side {
+  flex: 0.5;
+  padding: 0.5rem;
+}
+
+.font-head {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.curved-line {
+  width: 100%;
+  height: 120px;
+  border: solid 10px aquamarine;
+  ;
+  border-color: rgb(16, 213, 147) transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+
+}
+
+.paragraph p {
+  font-size: 1.2rem;
+  text-align: justify;
+
+}
+
+.live-demo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 0rem;
+}
+
+.try-free {
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 500;
+  background: rgb(149, 224, 149);
+  border-radius: 1.5rem;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.Veiw {
+  background: none;
+  font-size: 1.2em;
+  font-weight: 500;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Veiw .material-symbols-outlined {
+  font-size: 2.5em;
+  padding: 0rem 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn img {
+  width: 60%;
+  height: 70vh;
+
+}
+
+.send {
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 18%;
+  position: absolute;
+  top: 30%
+}
+
+.enter {
+  font-size: 1rem;
+  color: #757373;
+}
+
+.doller {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.send-btn {
+  padding: 0.5rem;
+  font-size: 0.8em;
+  font-weight: 500;
+  background: rgb(149, 224, 149);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+.dbms{
+  position: absolute;
+  top: 30%;
+  right: 7%
+}
+.dbms .material-symbols-outlined {
+  background: orange;
+  color: aliceblue;
+  width: fit-content;
+  border-radius: 0.5rem;
+  padding: auto;
+  transform: rotate(30deg);
+  font-size: 2.5em;
+  padding: 0rem 0.5rem;
+ 
+}
+.tick{
+  position: absolute;
+  top: 50%;
+}
+.tick .material-symbols-outlined {
+  background: rgb(0, 42, 255);
+  color: aliceblue;
+  width: fit-content;
+  border-radius: 0.5rem;
+  font-size: 2.5em;
+  padding: 0rem 0.5rem;
+  transform: rotate(30deg)
+}
+
+.doller-price {
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: fit-content;
+  position: absolute;
+  top: 80%;
+}
+
+.doller-price .material-symbols-outlined {
+  color: rgb(149, 224, 149);
+  
+}
+.atm-card {
+  position: absolute;
+  top: 60%;
+right: 3%;
+}
+.atm-card img {
+  width: 100%;
+  height: 20vh;
+  transform: rotate(30deg);
+}
+.msg {
+  position: absolute;
+  top: 90%;
+right: 13%;
+}
+.msg .material-symbols-outlined{
+  color: azure;
+  background: pink;
+  border-radius: 0.5rem;
+  width: fit-content;
+  transform: rotate(30deg);
+  font-size: 2.5em;
+  padding: 0rem 0.5rem;
+}
+.morethan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem;
+}
+.quotes{
+  font-size: 2.5rem;
+}
+.quotes-list{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2em 0em 0em 0em ;
+  color: #757373;
+  gap: 2;
+}
+.quotes-list li{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1rem ;
+}
+.quotes-list .material-symbols-outlined{
+  font-size: 2.5em;
+  padding: 0rem 0.5rem;
+}
+.middle-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+background-color: rgb(203, 232, 236);
+padding: 2rem;
+}
+.heading h2{
+  font-size: 2.8rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.star{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5rem;
+
+}
+.star1 {
+    padding: 0rem 1.5rem;
+}
+.star1 .material-symbols-outlined{
+  color: gold;
+  font-size: 2rem;
+  padding: 0rem 0.8rem;
+
+}
+.star1  p{
+  font-size: 1.2rem;
+}
+.publish{
+  margin-bottom: 1.5rem;
+  display: flex;
+justify-content: space-around;
+align-items: flex-start;
+}
+.publish .material-symbols-outlined{
+  font-size: 2rem;
+  background-color: aliceblue;
+padding: 0.8rem;
+color: aquamarine;
+margin-right: 1rem;
+}
+.publish h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.publish p{
+  margin-top: 1rem;
+}
+/* content css end */
